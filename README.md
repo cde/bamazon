@@ -1,5 +1,5 @@
 
-
+## Bamazon App
 
 
 To run this app, you will need first setup the DB by: 
@@ -11,7 +11,7 @@ To run this app, you will need first setup the DB by:
 
 ![seeds demo](/images/seeds.png)
 
-## Customer option
+### Customer Option
 
 - run bamazonCustomer app by `node bamazonCustomer.js`
 - You will see "Items available for Sale"
@@ -23,5 +23,24 @@ To run this app, you will need first setup the DB by:
 ![continue demo](/images/continue-prompt.png)
 
 
+### Manager Option 
 
+- run bamazonManager app by `node bamazonManager.js`
+- You will see a Menu options as follow:
+![Manager Menu options](/images/manager-menu-options.png)
+- Manager selects an option.
+- For option "View Products for Sale", the Manager will see:
+![Products for Sale](/images/products-sale.png)
+- For option "View Low Inventory", the Manager will see two options:
+1) List  all items with an inventory count lower than five. 
+![Low invetory](/images/low-inventory.png)
+2) A message indicating that there is not low inventory
+![No low invetory](/images/no-low-inventory.png)
+- For option "Add Inventory", the Manager will see prompts asking him/her which item & quantity
+he/she would like update
+![Add inventory](/images/add-inventory.png)
+- For option "Add new Product", the Manager will be asked details about the product as:
+![New product](/images/new-product.png)
 
+For each option, the manager has the option to continue or not:
+![Continue](/images/continue-prompt.png)
